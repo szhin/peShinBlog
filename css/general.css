@@ -1,0 +1,127 @@
+/* 
+font-family: 'Patrick Hand', cursive;
+font-family: 'Poppins', sans-serif; 
+
+color: #22b8cf; màu xanh dương
+       #66d9e8; nhat hon
+
+*/
+
+/*  ////////////////////////////////////////////////////////  */
+/* //////////////////////  ALL WEBSITE  //////////////////// */
+/* ///////////////////////////////////////////////////////// */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e3fafc;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  font-weight: 400;
+  overflow-x: hidden;
+  color: #666666;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 1.2rem;
+}
+
+.hero-wrap {
+  position: relative;
+  height: 80vh;
+  min-height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  opacity: 0.4;
+  /* opacity: 0.6; */
+  /* background: linear-gradient(
+    135deg,
+    #0a4f53 0%,
+    rgba(145, 129, 66, 0.1) 67%,
+    rgba(212, 154, 58, 0.1) 100%
+  ); */
+  /* background: #063c3f; */
+  z-index: -1;
+}
+
+/* ////////////////////////  HEADING  ///////////////////////// */
+.heading-primary {
+  font-size: 8rem;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1.2;
+  font-family: "Patrick Hand", cursive;
+  display: flex;
+  justify-content: center;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.4rem;
+  letter-spacing: 1.4px;
+  display: inline-block;
+}
+
+/* ////////////////////////  HEADING  ///////////////////////// */
+.html-active {
+  color: #66d9e8;
+}
+
+/* /////////////////////  RESPONSIVE /////////////////////// */
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 54rem;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720rem;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 96rem;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 114rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 122rem;
+  }
+}
