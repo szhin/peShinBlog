@@ -97,7 +97,7 @@
 
 .section-1 {
   position: relative;
-  height: 100vh;
+  height: 100%;
   padding: 9.6rem 0;
 }
 
@@ -119,5 +119,71 @@
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.9;
   /* height: 100vh; */
+}
+
+.welcome-description {
+  padding-bottom: 1.2rem;
+}
+
+/*  /////////////////////////////////////////////////  */
+/* //////////////////  SECTION--1  ///////////////// */
+/* //////////////////////////////////////////////// */
+
+.section-2 {
+  position: relative;
+  padding: 6rem 0rem;
+}
+
+.section-2.hero-wrap {
+  height: 120vh;
+}
+
+.item {
+  position: relative;
+  width: 100%;
+  background-color: #e3fafc;
+}
+
+.img-item {
+  position: relative;
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.img-item span {
+  display: flex;
+  background-color: #15aabf;
+  color: #fff;
+  font-size: 1.8rem;
+  position: absolute;
+  bottom: -1.5rem;
+  padding: 0.2rem 1.5rem;
+  border-radius: 4rem;
+  font-family: "Patrick Hand", cursive;
+}
+
+.item-description {
+  color: #000;
+}
+.section-2 .heading-secondary {
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.item-description {
+  padding: 3rem;
+}
+
+.item-description h3 {
+  font-weight: 500;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  font-family: "Patrick Hand", cursive;
 }

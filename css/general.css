@@ -3,8 +3,8 @@ font-family: 'Patrick Hand', cursive;
 font-family: 'Poppins', sans-serif; 
 
 color: #22b8cf; màu xanh dương
-       #66d9e8; nhat hon
-
+       #66d9e8; background
+       #15aabf; subheading
 */
 
 /*  ////////////////////////////////////////////////////////  */
@@ -24,6 +24,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   color: #666666;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -46,7 +47,6 @@ a {
 .hero-wrap {
   position: relative;
   height: 80vh;
-  min-height: 100%;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,12 +84,27 @@ a {
   justify-content: center;
 }
 
+.heading-secondary {
+  font-size: 6rem;
+  font-family: "Patrick Hand", cursive;
+  line-height: 1.2;
+  padding-bottom: 2rem;
+}
+
 .subheading {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 1.4rem;
   letter-spacing: 1.4px;
+  color: #15aabf;
   display: inline-block;
+}
+
+/* ////////////////////////  GRID  //////////////////////////// */
+.col-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
 }
 
 /* ////////////////////////  HEADING  ///////////////////////// */
@@ -98,7 +113,6 @@ a {
 }
 
 /* /////////////////////  RESPONSIVE /////////////////////// */
-
 @media (min-width: 576px) {
   .container {
     max-width: 54rem;
